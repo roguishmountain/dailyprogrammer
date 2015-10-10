@@ -3,6 +3,13 @@ __author__ = 'srs'
 from os.path import join
 import os, sys
 
+'''
+Grab - like grep but simpler.
+
+Input - a single line of text and a file name. You can take input via command line arguments or stdin, whichever is easier for you. You can also just take a single word instead of a line.
+
+Output - all lines of the checked file which contain this piece of text, along with line numbers. Make it work case-insensitive.
+'''
 
 search = sys.argv[1]
 
